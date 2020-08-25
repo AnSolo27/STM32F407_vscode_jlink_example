@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "name": "arm_c_cpp_properties",
+            "compilerPath": "C:/arm_gcc_new/bin/arm-none-eabi-gcc.exe",
+            "includePath": [
+				"C:/arm_gcc_new/arm-none-eabi/include",
+				"C:/arm_gcc_new/arm-none-eabi/include/sys/",
+				"C:/arm_gcc_new/lib/**",
+
+				"${workspaceRoot}\\Drivers\\**",
+                "${workspaceRoot}/Middlewares/Third_Party/FreeRTOS/Source/include",
+                "${workspaceRoot}/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2",
+                "${workspaceRoot}/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F",
+                "${workspaceRoot}/Core/Inc"
+            ],
+            "defines": [
+				"USE_HAL_DRIVER",
+				"STM32F407xx",
+				"M4",
+				"GCC_ARMCM4"
+            ],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+			"intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}

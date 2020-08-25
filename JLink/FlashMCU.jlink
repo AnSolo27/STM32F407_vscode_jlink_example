@@ -1,0 +1,7 @@
+r
+h
+loadbin build\f407_jlink_make.bin, 0x00
+g
+verifybin build\f407_jlink_make.bin, 0x00
+r
+q

@@ -1,0 +1,6 @@
+{
+    "cortex-debug.JLinkGDBServerPath": "C:/JLink/JLinkGDBServerCL.exe",
+    "cortex-debug.armToolchainPath": "C:/arm_gcc_new/bin",
+    "cortex-debug.PEGDBServerPath": "C:/arm_gcc_new/bin/arm-none-eabi-gdb.exe",
+    "project_mcu": "STM32F407VE"
+}
